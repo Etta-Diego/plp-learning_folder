@@ -1,0 +1,43 @@
+/* universal selector
+* {}
+
+element selector
+p {}
+img {}
+h1 {}
+table {}
+
+class selector
+.home {}
+
+id selector - styles a specific element value
+#home {}
+
+attribute selector - styles a specific attribute
+a[href="https://google.com"] {
+    property: value;
+}
+
+group selector - styles a group of elements
+p, h1, h2, h3 {}
+
+pseudo-class selector
+styles a specific state of an element like hover, click etc
+a :hover {}
+input :focus {}
+
+
+
+PRIORITY
+1. inline styling
+2. id selector
+3. class selectors, attribute, pseudo-class
+4. element selector
+5. universal selector*/
+
+
+
+#h-four {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: chartreuse;
+}
